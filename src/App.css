@@ -1,7 +1,13 @@
+
 .App {
+  
   text-align: center;
 }
-
+.gradient-text{
+  background-image: linear-gradient(120deg,red,blue);
+  background-clip: text;
+  color: transparent;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
